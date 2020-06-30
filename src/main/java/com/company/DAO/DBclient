@@ -1,0 +1,7 @@
+create table users1(
+    id serial primary key,
+    name varchar(50)not null ,
+    password varchar(50)not null
+);
+insert into users1 (name, password)
+values ('name','password'),('name1','password1');
